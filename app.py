@@ -15,7 +15,7 @@ firebase_creds = os.getenv('FIREBASE_CREDENTIALS')
 if firebase_creds:
     cred = credentials.Certificate(json.loads(firebase_creds))
 else:
-    cred = credentials.Certificate('firebase-adminsdk.json.json')
+    cred = credentials.Certificate('firebase-adminsdk.json')
 
 # Initialize Firebase app with the Realtime Database URL
 firebase_admin.initialize_app(cred, {
