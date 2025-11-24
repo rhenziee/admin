@@ -1,0 +1,23 @@
+# Environment variables
+.env
+
+# Firebase credentials
+firebase-adminsdk*.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+tastytalk_env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
